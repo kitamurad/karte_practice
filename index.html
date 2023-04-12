@@ -19,8 +19,11 @@
         });
         krt('send', 'buy', {
           transaction_id: "00001", // トランザクションID
+          item_id: "00002",
           revenue: 2000 // 購入金額
         });
+        krt('send', 'view_item', {
+          item_id: "00003"
       }
     </script>
   </body>
